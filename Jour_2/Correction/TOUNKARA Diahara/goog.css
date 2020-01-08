@@ -1,0 +1,134 @@
+#bloc
+{
+ display:flex;
+ justify-content:flex-end;
+ 
+}
+
+ul
+{
+  list-style-type: none;
+}
+
+
+.elements
+{
+  width: 60px;
+  height:26px;
+  margin-right:12px;
+  
+}
+
+.elements:nth-child(1)
+{
+  color:#232323;
+}
+.elements:nth-child(2)
+{
+   color:#232323;
+}
+
+.elements:nth-child(3)
+{
+  width:1px;
+  height: 1px;
+  align-self: flex-start;
+
+}
+
+.elements:nth-child(4)
+{
+  background-color: #4586F5;
+  width: 80px;
+  text-align: center;
+  border-radius: 2px;
+  color: white;
+
+
+}
+
+body
+{
+  font-family: arial,sans-serif;
+  font-size:12px;
+  line-height: 24px;
+
+}
+
+a
+{
+  text-decoration: none;
+  color:white;
+}
+
+a:hover
+{
+  text-decoration:underline;
+
+}
+
+a:visited
+{
+  color:#232323;
+  color:inherit;
+}  
+
+img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 112px;
+  padding-bottom: 20px;
+
+}
+
+figure
+{
+  text-align: center;
+  margin: 0 auto;
+}
+
+input
+{
+  width: 666px;
+  line-height: 8px;
+  padding:14px 18px ;
+  border-radius: 10px;
+  border:1px solid black;
+  
+  border-style: solid;
+  
+}
+
+.recherche 
+{
+
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(34, 34, 34);
+    text-shadow: none;
+    background-color:rgb(248, 248, 248);
+    
+}
+
+
+/*.styled:hover {
+    background-color: rgba(255, 0, 0, 1)
+}
+*/
+
+div + input 
+{
+ width:40px;
+ 
+
+  
+}
+
+
+
+
+

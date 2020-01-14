@@ -29,7 +29,7 @@ html
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border-radius: 0rem 0rem 0.3rem 0.3rem;
+    border-radius: 0rem 0rem 0rem 0rem;
     padding: 0rem;
     margin-bottom: 0rem;
 }
@@ -38,8 +38,6 @@ html
 {
     font-family: Zapfino, "Apple Chancery";
 }
-
-
 
 ::-webkit-scrollbar 
 {
